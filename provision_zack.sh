@@ -16,6 +16,10 @@ NODES=(
 
 CHECKPOINT_MODELS=(
     "https://huggingface.co/SG161222/Realistic_Vision_V5.1_noVAE/resolve/main/Realistic_Vision_V5.1.safetensors"
+    "https://huggingface.co/SG161222/Realistic_Vision_V5.1_noVAE/resolve/main/Realistic_Vision_V5.1-inpainting.safetensors"
+    "https://huggingface.co/SG161222/Realistic_Vision_V6.0_B1_noVAE/resolve/main/Realistic_Vision_V6.0_NV_B1.safetensors"
+    "https://huggingface.co/Lykon/AbsoluteReality/resolve/main/AbsoluteReality_1.8.1_pruned.safetensors?download=true"
+    "https://huggingface.co/jiaxiangc/res-adapter/resolve/main/resadapter_v2_sd1.5/diffusion_pytorch_model.safetensors?download=true"
 )
 
 LORA_MODELS=(
@@ -34,6 +38,7 @@ LORA_MODELS=(
    "https://huggingface.co/wangfuyun/AnimateLCM/resolve/main/AnimateLCM_sd15_t2v_lora.safetensors"
    "https://civitai.com/api/download/models/303921?type=Model&format=SafeTensor"
    "https://civitai.com/api/download/models/23801?type=Model&format=SafeTensor&size=full&fp=fp16"
+   "https://huggingface.co/jiaxiangc/res-adapter/resolve/main/resadapter_v2_sd1.5/pytorch_lora_weights.safetensors"
 )
 
 VAE_MODELS=(
@@ -47,7 +52,6 @@ ESRGAN_MODELS=(
 )
 
 CONTROLNET_MODELS=(
-    "https://civitai.com/api/download/models/370104?type=Model&format=SafeTensor"
     "https://huggingface.co/guoyww/animatediff/resolve/main/v3_sd15_sparsectrl_rgb.ckpt"
     "https://huggingface.co/spaces/LiheYoung/Depth-Anything/resolve/main/checkpoints_controlnet/diffusion_pytorch_model.safetensors"
     "https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11f1e_sd15_tile_fp16.safetensors?download=true"
