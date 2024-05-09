@@ -39,6 +39,8 @@ LORA_MODELS=(
    "https://civitai.com/api/download/models/303921?type=Model&format=SafeTensor"
    "https://civitai.com/api/download/models/23801?type=Model&format=SafeTensor&size=full&fp=fp16"
    "https://huggingface.co/jiaxiangc/res-adapter/resolve/main/resadapter_v2_sd1.5/pytorch_lora_weights.safetensors"
+   "https://huggingface.co/ByteDance/Hyper-SD/resolve/main/Hyper-SD15-8steps-CFG-lora.safetensors?download=true"
+   "https://huggingface.co/h1t/TCD-SD15-LoRA/resolve/main/pytorch_lora_weights.safetensors?download=true"
 )
 
 VAE_MODELS=(
@@ -54,14 +56,12 @@ ESRGAN_MODELS=(
 CONTROLNET_MODELS=(
     "https://huggingface.co/guoyww/animatediff/resolve/main/v3_sd15_sparsectrl_rgb.ckpt"
     "https://huggingface.co/spaces/LiheYoung/Depth-Anything/resolve/main/checkpoints_controlnet/diffusion_pytorch_model.safetensors"
-    "https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11f1e_sd15_tile_fp16.safetensors?download=true"
-    "https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_softedge_fp16.safetensors?download=true"
-    "https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_openpose_fp16.safetensors?download=true"
-    "https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_normalbae_fp16.safetensors?download=true"
-    "https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_lineart_fp16.safetensors?download=true"
-    "https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_inpaint_fp16.safetensors?download=true"
-    "https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_canny_fp16.safetensors?download=true"
-    "https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11f1p_sd15_depth_fp16.safetensors?download=true"
+    "https://huggingface.co/spaces/limingcv/ControlNet-Plus-Plus/resolve/main/checkpoints/lineart/controlnet/diffusion_pytorch_model.bin"
+    "https://huggingface.co/spaces/limingcv/ControlNet-Plus-Plus/resolve/main/checkpoints/depth/controlnet/diffusion_pytorch_model.safetensors"
+    "https://huggingface.co/spaces/limingcv/ControlNet-Plus-Plus/resolve/main/checkpoints/seg/controlnet/diffusion_pytorch_model.safetensors"
+    "https://huggingface.co/spaces/limingcv/ControlNet-Plus-Plus/resolve/main/checkpoints/hed/controlnet/diffusion_pytorch_model.bin"
+    "https://huggingface.co/spaces/limingcv/ControlNet-Plus-Plus/resolve/main/checkpoints/canny/controlnet/diffusion_pytorch_model.safetensors"
+    
 )
 
 ### DO NOT EDIT BELOW HERE UNLESS YOU KNOW WHAT YOU ARE DOING ###
