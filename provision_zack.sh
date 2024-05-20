@@ -16,8 +16,7 @@ NODES=(
 
 CHECKPOINT_MODELS=(
     "https://huggingface.co/SG161222/Realistic_Vision_V5.1_noVAE/resolve/main/Realistic_Vision_V5.1.safetensors"
-    "https://huggingface.co/SG161222/Realistic_Vision_V5.1_noVAE/resolve/main/Realistic_Vision_V5.1-inpainting.safetensors"
-    "https://huggingface.co/SG161222/Realistic_Vision_V6.0_B1_noVAE/resolve/main/Realistic_Vision_V6.0_NV_B1.safetensors"
+    "https://civitai.com/api/download/models/501240?type=Model&format=SafeTensor&size=full&fp=fp16"
     "https://huggingface.co/Lykon/AbsoluteReality/resolve/main/AbsoluteReality_1.8.1_pruned.safetensors?download=true"
     "https://huggingface.co/jiaxiangc/res-adapter/resolve/main/resadapter_v2_sd1.5/diffusion_pytorch_model.safetensors?download=true"
 )
@@ -41,6 +40,7 @@ LORA_MODELS=(
    "https://huggingface.co/jiaxiangc/res-adapter/resolve/main/resadapter_v2_sd1.5/pytorch_lora_weights.safetensors"
    "https://huggingface.co/ByteDance/Hyper-SD/resolve/main/Hyper-SD15-8steps-CFG-lora.safetensors?download=true"
    "https://huggingface.co/h1t/TCD-SD15-LoRA/resolve/main/pytorch_lora_weights.safetensors?download=true"
+   "https://huggingface.co/ByteDance/Hyper-SD/resolve/main/Hyper-SD15-12steps-CFG-lora.safetensors?download=true"
 )
 
 VAE_MODELS=(
@@ -61,6 +61,9 @@ CONTROLNET_MODELS=(
     "https://huggingface.co/spaces/limingcv/ControlNet-Plus-Plus/resolve/main/checkpoints/seg/controlnet/diffusion_pytorch_model.safetensors"
     "https://huggingface.co/spaces/limingcv/ControlNet-Plus-Plus/resolve/main/checkpoints/hed/controlnet/diffusion_pytorch_model.bin"
     "https://huggingface.co/spaces/limingcv/ControlNet-Plus-Plus/resolve/main/checkpoints/canny/controlnet/diffusion_pytorch_model.safetensors"
+    "https://huggingface.co/crishhh/animatediff_controlnet/resolve/main/controlnet_checkpoint.ckpt?download=true"
+    "https://huggingface.co/lllyasviel/control_v11p_sd15_inpaint/resolve/main/diffusion_pytorch_model.safetensors?download=true"
+    "https://huggingface.co/lllyasviel/control_v11p_sd15_openpose/resolve/main/diffusion_pytorch_model.safetensors?download=true"
     
 )
 
