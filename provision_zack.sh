@@ -12,6 +12,21 @@ PYTHON_PACKAGES=(
 
 NODES=(
     "https://github.com/ltdrdata/ComfyUI-Manager"
+    "https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved"
+    "https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet"
+    "https://github.com/Fannovel16/comfyui_controlnet_aux"
+    "https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite"
+    "https://github.com/cubiq/ComfyUI_IPAdapter_plus"
+    "https://github.com/kijai/ComfyUI-KJNodes"
+    "https://github.com/cubiq/ComfyUI_essentials"
+    "https://github.com/TencentQQGYLab/ComfyUI-ELLA"
+    "https://github.com/Gourieff/comfyui-reactor-node"
+    "https://github.com/Extraltodeus/ComfyUI-AutomaticCFG"
+    "https://github.com/rgthree/rgthree-comfy"
+    "https://github.com/kijai/ComfyUI-Marigold"
+    "https://github.com/logtd/ComfyUI-FLATTEN"
+    "https://github.com/logtd/ComfyUI-RAVE_ATTN"
+    "https://github.com/TinyTerra/ComfyUI_tinyterraNodes"
 )
 
 CHECKPOINT_MODELS=(
@@ -19,6 +34,9 @@ CHECKPOINT_MODELS=(
     "https://civitai.com/api/download/models/501240?type=Model&format=SafeTensor&size=full&fp=fp16"
     "https://huggingface.co/Lykon/AbsoluteReality/resolve/main/AbsoluteReality_1.8.1_pruned.safetensors?download=true"
     "https://huggingface.co/jiaxiangc/res-adapter/resolve/main/resadapter_v2_sd1.5/diffusion_pytorch_model.safetensors?download=true"
+    "https://huggingface.co/manshoety/beta_testing_models/resolve/main/mm-p_0.5.pth?download=true"
+    "https://civitai.com/api/download/models/174464"
+    "https://huggingface.co/wangfuyun/AnimateLCM-I2V/resolve/main/AnimateLCM_sd15_i2v.ckpt?download=true"
 )
 
 LORA_MODELS=(
@@ -35,6 +53,7 @@ LORA_MODELS=(
    "https://huggingface.co/latent-consistency/lcm-lora-sdv1-5/resolve/main/pytorch_lora_weights.safetensors"
    "https://huggingface.co/guoyww/animatediff/resolve/main/v3_sd15_adapter.ckpt"
    "https://huggingface.co/wangfuyun/AnimateLCM/resolve/main/AnimateLCM_sd15_t2v_lora.safetensors"
+   "https://huggingface.co/wangfuyun/AnimateLCM-I2V/resolve/main/AnimateLCM_sd15_i2v_lora.safetensors?download=true"
    "https://civitai.com/api/download/models/303921?type=Model&format=SafeTensor"
    "https://civitai.com/api/download/models/23801?type=Model&format=SafeTensor&size=full&fp=fp16"
    "https://huggingface.co/jiaxiangc/res-adapter/resolve/main/resadapter_v2_sd1.5/pytorch_lora_weights.safetensors"
@@ -51,19 +70,16 @@ ESRGAN_MODELS=(
     "https://huggingface.co/ai-forever/Real-ESRGAN/resolve/main/RealESRGAN_x4.pth"
     "https://huggingface.co/FacehugmanIII/4x_foolhardy_Remacri/resolve/main/4x_foolhardy_Remacri.pth"
     "https://huggingface.co/Akumetsu971/SD_Anime_Futuristic_Armor/resolve/main/4x_NMKD-Siax_200k.pth"
+    "https://drive.google.com/uc?export=download&confirm=1&id=1CX9tpoSOtUbGOD0rPC9u2hh0UraVkH85"
 )
 
 CONTROLNET_MODELS=(
     "https://huggingface.co/guoyww/animatediff/resolve/main/v3_sd15_sparsectrl_rgb.ckpt"
-    "https://huggingface.co/spaces/LiheYoung/Depth-Anything/resolve/main/checkpoints_controlnet/diffusion_pytorch_model.safetensors"
-    "https://huggingface.co/spaces/limingcv/ControlNet-Plus-Plus/resolve/main/checkpoints/lineart/controlnet/diffusion_pytorch_model.bin"
     "https://huggingface.co/spaces/limingcv/ControlNet-Plus-Plus/resolve/main/checkpoints/depth/controlnet/diffusion_pytorch_model.safetensors"
-    "https://huggingface.co/spaces/limingcv/ControlNet-Plus-Plus/resolve/main/checkpoints/seg/controlnet/diffusion_pytorch_model.safetensors"
-    "https://huggingface.co/spaces/limingcv/ControlNet-Plus-Plus/resolve/main/checkpoints/hed/controlnet/diffusion_pytorch_model.bin"
-    "https://huggingface.co/spaces/limingcv/ControlNet-Plus-Plus/resolve/main/checkpoints/canny/controlnet/diffusion_pytorch_model.safetensors"
     "https://huggingface.co/crishhh/animatediff_controlnet/resolve/main/controlnet_checkpoint.ckpt?download=true"
-    "https://huggingface.co/lllyasviel/control_v11p_sd15_inpaint/resolve/main/diffusion_pytorch_model.safetensors?download=true"
-    "https://huggingface.co/lllyasviel/control_v11p_sd15_openpose/resolve/main/diffusion_pytorch_model.safetensors?download=true"
+    "https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15_inpaint.pth?download=true"
+    "https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15_openpose.pth?download=true"
+    "https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15_normalbae.pth?download=true"
     
 )
 
