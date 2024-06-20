@@ -31,12 +31,12 @@ NODES=(
 
 CHECKPOINT_MODELS=(
     "https://huggingface.co/SG161222/Realistic_Vision_V5.1_noVAE/resolve/main/Realistic_Vision_V5.1.safetensors"
-    "https://civitai.com/api/download/models/501240?type=Model&format=SafeTensor&size=full&fp=fp16"
-    "https://huggingface.co/Lykon/AbsoluteReality/resolve/main/AbsoluteReality_1.8.1_pruned.safetensors?download=true"
-    "https://huggingface.co/jiaxiangc/res-adapter/resolve/main/resadapter_v2_sd1.5/diffusion_pytorch_model.safetensors?download=true"
-    "https://huggingface.co/manshoety/beta_testing_models/resolve/main/mm-p_0.5.pth?download=true"
+    "https://huggingface.co/cyberdelia/CyberRealistic/resolve/main/CyberRealistic_V5_FP32.safetensors"
+    "https://huggingface.co/RunDiffusion/Juggernaut-X-v10/resolve/main/Juggernaut-X-RunDiffusion-NSFW.safetensors"
+    "https://huggingface.co/jiaxiangc/res-adapter/resolve/main/resadapter_v2_sd1.5/diffusion_pytorch_model.safetensors"
+    "https://huggingface.co/manshoety/beta_testing_models/resolve/main/mm-p_0.5.pth"
     "https://civitai.com/api/download/models/174464"
-    "https://huggingface.co/wangfuyun/AnimateLCM-I2V/resolve/main/AnimateLCM_sd15_i2v.ckpt?download=true"
+    "https://huggingface.co/wangfuyun/AnimateLCM-I2V/resolve/main/AnimateLCM_sd15_i2v.ckpt"
 )
 
 LORA_MODELS=(
