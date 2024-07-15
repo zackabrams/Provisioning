@@ -27,6 +27,8 @@ NODES=(
     "https://github.com/logtd/ComfyUI-FLATTEN"
     "https://github.com/logtd/ComfyUI-RAVE_ATTN"
     "https://github.com/TinyTerra/ComfyUI_tinyterraNodes"
+    "https://github.com/blepping/ComfyUI-bleh"
+    "https://github.com/pamparamm/ComfyUI-ppm"
 )
 
 CHECKPOINT_MODELS=(
@@ -52,14 +54,15 @@ LORA_MODELS=(
    "https://civitai.com/api/download/models/9043?type=Model&format=SafeTensor&size=full&fp=fp16"
    "https://huggingface.co/latent-consistency/lcm-lora-sdv1-5/resolve/main/pytorch_lora_weights.safetensors"
    "https://huggingface.co/guoyww/animatediff/resolve/main/v3_sd15_adapter.ckpt"
-   "https://huggingface.co/wangfuyun/AnimateLCM/resolve/main/AnimateLCM_sd15_t2v_lora.safetensors"
-   "https://huggingface.co/wangfuyun/AnimateLCM-I2V/resolve/main/AnimateLCM_sd15_i2v_lora.safetensors?download=true"
    "https://civitai.com/api/download/models/303921?type=Model&format=SafeTensor"
    "https://civitai.com/api/download/models/23801?type=Model&format=SafeTensor&size=full&fp=fp16"
    "https://huggingface.co/jiaxiangc/res-adapter/resolve/main/resadapter_v2_sd1.5/pytorch_lora_weights.safetensors"
-   "https://huggingface.co/ByteDance/Hyper-SD/resolve/main/Hyper-SD15-8steps-CFG-lora.safetensors?download=true"
    "https://huggingface.co/h1t/TCD-SD15-LoRA/resolve/main/pytorch_lora_weights.safetensors?download=true"
    "https://huggingface.co/ByteDance/Hyper-SD/resolve/main/Hyper-SD15-12steps-CFG-lora.safetensors?download=true"
+   "https://huggingface.co/ByteDance/Hyper-SD/resolve/main/Hyper-SDXL-12steps-CFG-lora.safetensors?download=true"
+   "https://huggingface.co/Kijai/spo-loras-comfyui/resolve/main/spo_sdxl_locon_linear_16.safetensors?download=true"
+   "https://huggingface.co/Kijai/spo-loras-comfyui/resolve/main/spo-sd-v1-5_4k-p_10ep_lora_converted_fp32.safetensors?download=true"
+   
 )
 
 VAE_MODELS=(
@@ -75,11 +78,12 @@ ESRGAN_MODELS=(
 
 CONTROLNET_MODELS=(
     "https://huggingface.co/guoyww/animatediff/resolve/main/v3_sd15_sparsectrl_rgb.ckpt"
-    "https://huggingface.co/spaces/limingcv/ControlNet-Plus-Plus/resolve/main/checkpoints/depth/controlnet/diffusion_pytorch_model.safetensors"
     "https://huggingface.co/crishhh/animatediff_controlnet/resolve/main/controlnet_checkpoint.ckpt?download=true"
     "https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15_inpaint.pth?download=true"
     "https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15_openpose.pth?download=true"
     "https://huggingface.co/lllyasviel/ControlNet-v1-1/resolve/main/control_v11p_sd15_normalbae.pth?download=true"
+    "https://huggingface.co/CiaraRowles/controlnet-temporalnet-sdxl-1.0/resolve/main/diffusion_pytorch_model.safetensors?download=true"
+    "https://huggingface.co/xinsir/controlnet-union-sdxl-1.0/resolve/main/diffusion_pytorch_model_promax.safetensors?download=true"
     
 )
 
